@@ -2,7 +2,7 @@
 
 A modern web application for Zimbabwean parents to send money to their children studying abroad in the UK and South Africa.
 
-## 🚀 Features
+##  Features
 
 - **Secure Money Transfers**: Send money to UK (GBP) and South Africa (ZAR) with transparent fees
 - **Real-time Exchange Rates**: Live currency conversion with API integration
@@ -12,7 +12,7 @@ A modern web application for Zimbabwean parents to send money to their children 
 - **Dark Theme**: Professional dark interface with vibrant green accents
 - **Smooth Animations**: Polished transitions and interactive elements
 
-## 🛠️ Technology Stack
+##  Technology Stack
 
 - **Frontend**: React 18 with TypeScript
 - **Build Tool**: Vite
@@ -23,7 +23,7 @@ A modern web application for Zimbabwean parents to send money to their children 
 - **Icons**: Lucide React
 - **Animations**: CSS animations with Tailwind
 
-## 📱 Pages & Features
+##  Pages & Features
 
 ### Landing Page
 - Hero section with compelling call-to-action
@@ -57,7 +57,7 @@ A modern web application for Zimbabwean parents to send money to their children 
   - Animated page transitions
   - Mobile-optimized layout
 
-## 🔧 How to Run the Application
+##  How to Run the Application
 
 ### Prerequisites
 - Node.js 18 or higher
@@ -115,7 +115,7 @@ A modern web application for Zimbabwean parents to send money to their children 
 
 The production build will be created in the `dist` folder and optimized for deployment.
 
-## 🏗️ Architecture & Design Choices
+##  Architecture & Design Choices
 
 ### Frontend Architecture
 - **React 18 with TypeScript**: Provides type safety and modern React features like concurrent rendering
@@ -156,7 +156,7 @@ The production build will be created in the `dist` folder and optimized for depl
 - **CSRF Protection**: Prepared for implementation with future API integration
 - **Secure Headers**: Ready for implementation in production deployment
 
-## 🔒 Security Features
+##  Security Features
 
 - **Password Security**: Client-side hashing before storage (production should use server-side bcrypt)
 - **Input Sanitization**: XSS prevention on all user inputs
@@ -164,7 +164,7 @@ The production build will be created in the `dist` folder and optimized for depl
 - **Data Encryption**: Sensitive data handled securely in localStorage
 - **HTTPS Ready**: Prepared for secure connections in production
 
-## 🌍 Internationalization & Currency
+##  Internationalization & Currency
 
 ### Supported Countries
 - **United Kingdom**: GBP conversion with 10% transfer fee
@@ -191,7 +191,7 @@ The production build will be created in the `dist` folder and optimized for depl
 - **Touch-Friendly**: Large buttons and intuitive gestures
 - **Accessibility**: ARIA labels and keyboard navigation
 
-## 🎨 Design System
+##  Design System
 
 ### Color Palette
 - **Background**: Dark green-tinted (#0a0f0d)
@@ -210,7 +210,7 @@ The production build will be created in the `dist` folder and optimized for depl
 - **Loading States**: Animated spinners and progress indicators
 - **Micro-interactions**: Button glows and card hover effects
 
-## 🚀 Scaling Considerations
+##  Scaling Considerations
 
 ### Adding New Countries
 1. Update `CurrencyConversion` type in `utils/currency.ts`
@@ -247,7 +247,7 @@ The production build will be created in the `dist` folder and optimized for depl
 - Bulk transfer capabilities
 - Recipient management system
 
-## 🧪 Testing Strategy
+##  Testing Strategy
 
 ### Recommended Test Coverage
 - Unit tests for utility functions
@@ -263,25 +263,17 @@ The production build will be created in the `dist` folder and optimized for depl
 - **Performance**: Lighthouse CI
 - **Accessibility**: axe-core
 
-## 📄 Browser Support
+##  Browser Support
 
 - **Modern Browsers**: Chrome, Firefox, Safari, Edge (latest 2 versions)
 - **Mobile**: iOS Safari, Chrome Mobile
 - **Features**: ES6+, CSS Grid, Flexbox
 - **Fallbacks**: Graceful degradation for older browsers
 
-## 🤝 Contributing
+##  Contributing
 
 1. Fork the repository
 2. Create a feature branch
 3. Make your changes
 4. Add tests for new functionality
 5. Submit a pull request
-
-## 📝 License
-
-This project is licensed under the MIT License.
-
----
-
-Built with ❤️ for Zimbabwean families worldwide.
